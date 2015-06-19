@@ -51,7 +51,7 @@ if [ "$INSTALL_PACKAGES" != "n" ]; then
 
     case "`uname`" in
     Linux)
-        if grep "Debian" /etc/issue >/dev/null 2>&1; then
+        if grep "Debian\|Ubuntu" /etc/issue >/dev/null 2>&1; then
             (wget -qO - $BASE_URL/deb-install.sh | bash) || true
         else
             echo "Error: Unsupported Linux distro"
