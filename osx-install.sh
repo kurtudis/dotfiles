@@ -138,6 +138,7 @@ brew install brew-cask
 cat << EOF | xargs -n 1 brew cask install
 airdroid
 avira-antivirus
+camunda-modeler
 docker-edge
 java
 skype
