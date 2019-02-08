@@ -21,9 +21,9 @@ cairo
 check
 cloog-ppl015
 cmake
+curl
 d-bus
 dhcping
-docker
 duplicity
 duply
 ec2-api-tools
@@ -76,6 +76,7 @@ libtoxcore
 libvorbis
 libvpx
 libyaml
+maven
 mercurial
 moreutils
 mpfr2
@@ -108,6 +109,7 @@ s3cmd
 samba
 serf
 sqlite
+springboot
 ssh-copy-id
 subversion
 texi2html
@@ -129,33 +131,31 @@ EOF
 
 # Homebrew Cask
 brew tap phinze/cask
+brew tap pivotal/tap
 brew install brew-cask
 
 # Casks
 cat << EOF | xargs -n 1 brew cask install
-bonjour-browser
-chefdk
-chicken
-cord
-cyberduck
-eclipse-ide
+airdroid
+avira-antivirus
+docker-edge
+java
+skype
+eclipse-jee
+intellij-idea
 firefox
-gimp
 google-chrome
-hipchat
 iterm2
-mactex
-mou
-openoffice
-poison
-truecrypt
+postman
+slack
+spotify
+sublime-text
+transmission
 tunnelblick
-utorrent
-vagrant
-virtualbox
 vlc
-vmware-fusion
-xquartz
+whatsapp
+zeebe-modeler
+zoom
 EOF
 
 # NPM packages
