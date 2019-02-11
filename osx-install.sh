@@ -155,7 +155,6 @@ tunnelblick
 vlc
 whatsapp
 zeebe-modeler
-zoom
 EOF
 
 # NPM packages
