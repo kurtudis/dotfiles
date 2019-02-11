@@ -90,7 +90,6 @@ opencv
 openssl
 p7zip
 pango
-parallel
 pcre
 phantomjs
 pixman
