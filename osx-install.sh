@@ -58,6 +58,7 @@ jasper
 jpeg
 jsl
 json-glib
+jq
 lame
 libconfig
 libffi
